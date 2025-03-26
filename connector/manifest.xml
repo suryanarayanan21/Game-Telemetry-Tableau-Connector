@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<connector-plugin class='connector' superclass='eps' plugin-version='1.1.0' name='Telemetry Connector'
+                  version='18.1' min-version-tableau='2024.1'>
+    <vendor-information>
+        <company name='Surya'/>
+        <support-link url='https://vendor-name.com'/>
+    </vendor-information>
+    <connection-customization class="connector" enabled="true" version="10.0">
+        <vendor name="salesforce"/>
+        <driver name="salesforce"/>
+        <customizations>
+        </customizations>
+    </connection-customization>
+    <connection-fields file='connection-fields.xml'/>
+    <connection-metadata file='connection-metadata.xml'/>
+</connector-plugin>

@@ -1,0 +1,28 @@
+{
+  "name": "connector",
+  "displayName": "Telemetry Connector",
+  "version": "1.1.0",
+  "tableau-version": {
+    "min": "2024.1"
+  },
+  "vendor": {
+    "name": "Surya",
+    "support-link": "https://vendor-name.com",
+    "email": "support@vendor-name.com"
+  },
+  "permission": {
+    "api": {
+      "https://*.firebaseio.com/": [
+        "GET",
+        "POST"
+      ]
+    }
+  },
+  "auth": {
+    "type": "none"
+  },
+  "window": {
+    "height": 800,
+    "width": 600
+  }
+}
